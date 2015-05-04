@@ -89,7 +89,7 @@ typedef NS_ENUM(NSInteger, ICPageControlPosition) {
  *
  *  @return Number of items
  */
-- (NSInteger)numberOfItems;
+- (NSInteger)numberOfItems:(ImagePlayerView *)imagePlayerView;
 
 /**
  *  Init imageview

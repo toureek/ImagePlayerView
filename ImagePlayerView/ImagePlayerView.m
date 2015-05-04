@@ -115,7 +115,7 @@
         [subView removeFromSuperview];
     }
     
-    self.count = [self.imagePlayerViewDelegate numberOfItems];
+    self.count = [self.imagePlayerViewDelegate numberOfItems:self];
     
     self.pageControl.numberOfPages = self.count;
     self.pageControl.currentPage = 0;
