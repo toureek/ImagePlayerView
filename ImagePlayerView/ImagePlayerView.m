@@ -399,6 +399,10 @@
     }
 }
 
+- (void)setCurrentPageIndicatorTintColor:(UIColor *)color {
+    [self.pageControl setCurrentPageIndicatorTintColor:color];
+}
+
 #pragma mark - deprecated methods
 // @deprecated use - (void)initWithCount:(NSInteger)count delegate:(id<ImagePlayerViewDelegate>)delegate instead
 - (void)initWithImageURLs:(NSArray *)imageURLs placeholder:(UIImage *)placeholder delegate:(id<ImagePlayerViewDelegate>)delegate

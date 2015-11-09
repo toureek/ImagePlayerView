@@ -37,6 +37,14 @@ typedef NS_ENUM(NSInteger, ICPageControlPosition) {
  */
 - (void)stopTimer;
 
+/**
+ *  Set the tinyColor of the current indicator pageControl
+ *
+ *  @param color :the color of pageControl indicator
+ */
+- (void)setCurrentPageIndicatorTintColor:(UIColor *)color;
+
+
 #pragma mark - deprecated methods
 /**
  *  Init image player
